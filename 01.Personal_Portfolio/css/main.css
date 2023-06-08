@@ -1,0 +1,55 @@
+/* FONTS */
+/* font-family: 'Domine', serif;
+font-family: 'Roboto Slab', serif; */
+
+/* GENERAL BASIC SETTING */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.635em;
+  width: 100%;
+}
+
+.head-container,
+main,
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Domine", serif;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+/* Images with rounded border */
+.content-img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* HEADER SECTION */
+.head-container {
+  display: flex;
+}
+
+.head-left {
+  width: 50%;
+}
+
+.head-right {
+  width: 50%;
+}
+
+.head-img {
+  width: 50%;
+}
